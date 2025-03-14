@@ -60,7 +60,7 @@ To allow anyone to create tickets, go to Admin Panel -> Settings -> User Setting
 <br />
 
 <p>
-<img src="https://i.imgur.com/dwAhP3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GAauevU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To configure agents (workers), go to Admin Panel -> Agents -> Add New. Fill in the necessary details, such as the agent's name, email, assigned role, and department, to set up their profile and permissions.
@@ -68,7 +68,7 @@ To configure agents (workers), go to Admin Panel -> Agents -> Add New. Fill in t
 <br />
 
 <p>
-<img src="https://i.imgur.com/aYLnu3z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/em4FFvI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To configure users (customers), go to Agent Panel -> Users -> Add New. Add users such as Ryu and Ken by entering their details, including names and email addresses, to enable them to submit and manage their tickets.
@@ -76,7 +76,16 @@ To configure users (customers), go to Agent Panel -> Users -> Add New. Add users
 <br />
 
 <p>
-<img src="https://i.imgur.com/YXWfwh8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/z7gOa5n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure SLAs, navigate to Admin Panel -> Manage -> SLA. Make them in order of sevarity (such as Sev-A (Grace Period: 1 hour, Schedule: 24/7) Sev-B (Grace Period: 4 hours, Schedule: 24/7) Sev-C (Grace Period: 8 hours, Business Hours). These SLAs define how quickly a support team should respond/resolve a ticket.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/hTAaN2J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To configure help topics for user ticket creation, navigate to Admin Panel -> Manage -> Help Topics. These topics will guide users in categorizing their tickets effectively.
