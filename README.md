@@ -36,7 +36,7 @@ To configure new roles within the help desk, go to the Admin Panel -> Agents -> 
 <br />
 
 <p>
-<img src="https://i.imgur.com/KzFVjJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iIBvHUO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Select the "Departments" button in the Agents tab. Here, you can create a new department, with each agent assigned to a specific department based on their role within the help desk. Create a department named "System Administrators", which will serve as the designated department for Supreme Admins. Additional settings, such as SLAs, managers, and email configurations, can be customized within the Departments tab to align with your help desk's operational needs.
@@ -44,7 +44,7 @@ Select the "Departments" button in the Agents tab. Here, you can create a new de
 <br />
 
 <p>
-<img src="https://i.imgur.com/ob4MEma.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4Lnge07.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To configure teams, navigate to Admin Panel -> Agents -> Teams. Teams allow you to group agents from different departments to collaborate effectively. Create a team named Level II Support and assign agents from various departments as needed.
@@ -52,7 +52,7 @@ To configure teams, navigate to Admin Panel -> Agents -> Teams. Teams allow you 
 <br />
 
 <p>
-<img src="https://i.imgur.com/TcRrhwN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JLyds6X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To allow anyone to create tickets, go to Admin Panel -> Settings -> User Settings. Uncheck the option "Require registration and login to create tickets" to enable unregistered users to submit tickets without needing an account.
