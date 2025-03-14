@@ -4,8 +4,8 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket - Post-Install Configuration</h1>
+This tutorial outlines the post-installation configuration of the open-source help desk ticketing system, osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -17,44 +17,69 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 - Windows 10</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
-
-- Intake: A user submits a ticket through email or the portal.
-- Assignment and Communication: The ticket is assigned to an agent, and communication starts.
-- Working the Issue: The agent works to resolve the issue and updates the ticket.
-- Resolution: The ticket is closed with a resolution and the user is notified.
-
-<h2>Lifecycle Stages</h2>
+<h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/0yjALrc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/OEmRXCQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ycMZCfC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ryu, one of our customers, is opening a new ticket under the Business Critical Outage help topic. The issue reported is that the CRM software is down. 
+Great! Now that osTicket is successfully configured, we will proceed with system administration tasks, starting with configuring new roles within the help desk. This will allow you to manage user access and permissions effectively.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/BNXolkz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/86KHyKY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Agents can view live tickets in the Agent Panel. Queue managers will assign priority tickets to the appropriate agents and ensure proper SLAs are applied.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/4FvPpMN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-In this example, the ticket's priority is set to Emergency due to its potential impact on a critical business area. The SLA plan has been updated accordingly, and the ticket is assigned to a top-level technician. In some ticketing systems, customers can set their own SLA plans.
+To configure new roles within the help desk, go to the Admin Panel -> Agents -> Roles. Click on "Add new role" and enter the name of the new role, such as Supreme Admin. This will allow you to define the permissions and responsibilities for the role. Since you are creating a Supreme Admin role, this role will be granted all permissions. Ensure all available permissions are selected for this role to provide full administrative access.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/rNycELQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KzFVjJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The ticket was closed after identifying the root cause as personal networking issues on the customer’s end. The status was set to Resolved, and an internal note was added to inform Steve Lang that the customer was upset. It emphasized handling the situation with urgency and empathy during follow-up.
+Select the "Departments" button in the Agents tab. Here, you can create a new department, with each agent assigned to a specific department based on their role within the help desk. Create a department named "System Administrators", which will serve as the designated department for Supreme Admins. Additional settings, such as SLAs, managers, and email configurations, can be customized within the Departments tab to align with your help desk's operational needs.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ob4MEma.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure teams, navigate to Admin Panel -> Agents -> Teams. Teams allow you to group agents from different departments to collaborate effectively. Create a team named Level II Support and assign agents from various departments as needed.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/TcRrhwN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To allow anyone to create tickets, go to Admin Panel -> Settings -> User Settings. Uncheck the option "Require registration and login to create tickets" to enable unregistered users to submit tickets without needing an account.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dwAhP3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure agents (workers), go to Admin Panel -> Agents -> Add New. Fill in the necessary details, such as the agent's name, email, assigned role, and department, to set up their profile and permissions.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/aYLnu3z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure users (customers), go to Agent Panel -> Users -> Add New. Add users such as Ryu and Ken by entering their details, including names and email addresses, to enable them to submit and manage their tickets.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YXWfwh8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure help topics for user ticket creation, navigate to Admin Panel -> Manage -> Help Topics. These topics will guide users in categorizing their tickets effectively.
+
 </p>
 <br />
